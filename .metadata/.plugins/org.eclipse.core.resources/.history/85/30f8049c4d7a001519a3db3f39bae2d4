@@ -1,0 +1,6 @@
+package org.hydl.chaper9;
+
+interface org.hydl.chpaer9.ICat {
+	String getColor();
+	double getWeight();
+}

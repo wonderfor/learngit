@@ -1,0 +1,20 @@
+package org.hydl.chaper9;
+
+import org.hydl.helloworld.R;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.widget.Button;
+
+public class BindServiceTest extends Activity {
+	
+	Button bind,unbind,getServiceStatus;
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_bindservice);
+		
+		
+	}
+}
