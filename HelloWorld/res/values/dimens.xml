@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title_font_size">18sp</dimen>
+    <dimen name="spacing">8dp</dimen>
+    <dimen name="cell_width">60dp</dimen>
+    <dimen name="cell_height">60dp</dimen>
+</resources>
