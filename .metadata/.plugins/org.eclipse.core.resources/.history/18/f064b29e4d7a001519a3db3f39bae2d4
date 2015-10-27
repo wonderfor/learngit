@@ -1,6 +1,0 @@
-package org.hydl.readother;
-
-interface org.hydl.chpaer9.ICat {
-	String getColor();
-	double getWeight();
-}
