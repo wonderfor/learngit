@@ -25,6 +25,7 @@
         
         <activity android:name="FirstResovler"></activity>
         <activity android:name="AidlClient"></activity>
+        <activity android:name=".ComplexClient"></activity>
     </application>
 
 </manifest>

@@ -1,6 +1,6 @@
 /*
  * This file is auto-generated.  DO NOT MODIFY.
- * Original file: D:\\works\\HelloWorld\\src\\org\\hydl\\chaper9\\ICat.aidl
+ * Original file: E:\\git\\learngit\\HelloWorld\\src\\org\\hydl\\chaper9\\ICat.aidl
  */
 package org.hydl.chaper9;
 public interface ICat extends android.os.IInterface

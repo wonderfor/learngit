@@ -55,6 +55,17 @@ public class MainActivity extends Activity {
 			}
 		});
 		
+		Button btn_compxclient = (Button) findViewById(R.id.btn_complex);
+		btn_compxclient.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View arg0) {
+				// TODO Auto-generated method stub
+				Intent i = new Intent(MainActivity.this,ComplexClient.class);
+				startActivity(i);
+			}
+		});
+		
 	}
 
 	@Override

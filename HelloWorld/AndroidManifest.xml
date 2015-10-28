@@ -238,6 +238,12 @@
             </intent-filter>
         </service>
         
+        <service android:name="org.hydl.chaper9.ComplexService">
+            <intent-filter >
+                <action android:name="org.hydl.chaper9.complexservice"/>
+            </intent-filter>
+        </service>
+        
     </application>
 
 </manifest>

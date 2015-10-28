@@ -13,5 +13,6 @@
 	<string name="color">Color:</string>
 	<string name="weight">Weight:</string>
 	<string name="getservice">获取数据</string>
+	<string name="ComplexClient">ComplexClient</string>
     
 </resources>
