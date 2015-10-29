@@ -201,6 +201,10 @@
 	<string name="intentservice">IntentService</string>
 	<string name="startservice">StartService</string>
 	<string name="startintentservice">StartIntentService</string>
+	<string name="telephonystatus">TelephonyStatus</string>
+	<string name="monitorphone">MonitorPhone</string>
+	<string name="blockmain">BlockMain</string>
+	<string name="blockmanager">黑名单管理</string>
 	
     
 </resources>

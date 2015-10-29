@@ -193,4 +193,16 @@
 	<string name="contactprovider">ContactProvider</string>
 	<string name="mediaprovider">MediaProvider</string>
 	<string name="view">查找</string>
+		<string name="monitorsms">MonitorSms</string>
+	<string name="firstservice">StartService</string>
+	<string name="bindservice">BindService</string>
+	<string name="unbindservice">UnBindService</string>
+	<string name="servicestatus">ServiceStatus</string>
+	<string name="intentservice">IntentService</string>
+	<string name="startservice">StartService</string>
+	<string name="startintentservice">StartIntentService</string>
+	<string name="telephonystatus">TelephonyStatus</string>
+	<string name="monitorphone">MonitorPhone</string>
+	<string name="blockmain">BlockMain</string>
+	<string name="blockmanager">黑名单管理</string>
 </resources>

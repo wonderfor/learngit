@@ -66,9 +66,12 @@ public class Speech extends Activity {
 	
 	@Override
 	protected void onDestroy() {
+
 		// TODO Auto-generated method stub
 		if(tts != null) {
 			tts.shutdown();
 		}
+		
+		super.onDestroy();
 	}
 }

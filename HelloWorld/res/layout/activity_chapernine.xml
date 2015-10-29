@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    >
+    android:fadingEdge="vertical"
+    android:scrollbars="vertical" >
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1200dp" >
+	
     <Button
         android:id="@+id/btn_dictresolver"
         android:layout_width="wrap_content"
@@ -59,4 +64,30 @@
         android:layout_below="@+id/btn_stratservice"
         android:text="@string/intentservice" />
 
-</RelativeLayout>
+    <Button
+        android:id="@+id/btn_telephonystatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_bindservice"
+        android:layout_toRightOf="@+id/btn_intentservicetest"
+        android:text="@string/telephonystatus" />
+
+    <Button
+        android:id="@+id/btn_monitorphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btn_intentservicetest"
+        android:text="@string/monitorphone" />
+
+    <Button
+        android:id="@+id/btn_blockmain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_monitorsms"
+        android:layout_below="@+id/btn_telephonystatus"
+        android:text="@string/blockmain" />
+
+	</RelativeLayout>
+
+</ScrollView>

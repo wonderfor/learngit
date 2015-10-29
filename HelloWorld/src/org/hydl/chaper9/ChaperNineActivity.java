@@ -93,5 +93,38 @@ public class ChaperNineActivity extends Activity {
 			}
 		});
 		
+		Button btn_telephonystatus = (Button) findViewById(R.id.btn_telephonystatus);
+		btn_telephonystatus.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent i = new Intent(ChaperNineActivity.this,TelephonyStatus.class);
+				startActivity(i);
+			}
+		});
+		
+		Button btn_monitorphone = (Button) findViewById(R.id.btn_monitorphone);
+		btn_monitorphone.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent i = new Intent(ChaperNineActivity.this,MonitorPhone.class);
+				startActivity(i);
+			}
+		});
+		
+		Button btn_blockmain = (Button) findViewById(R.id.btn_blockmain);
+		btn_blockmain.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent i = new Intent(ChaperNineActivity.this,BlockMain.class);
+				startActivity(i);
+			}
+		});
+		
 	}
 }

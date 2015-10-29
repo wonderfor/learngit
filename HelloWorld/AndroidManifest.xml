@@ -14,6 +14,9 @@
    	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>  
    	<uses-permission android:name="android.permission.WRITE_CONTACTS"/>
    	<uses-permission android:name="android.permission.READ_SMS"/>
+   	<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+   	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+   	<uses-permission android:name="android.permission.CALL_PHONE"/>
    
     <application
         android:allowBackup="true"
@@ -197,6 +200,9 @@
         <activity android:name="org.hydl.chaper9.StartServiceTest"></activity>
         <activity android:name="org.hydl.chaper9.BindServiceTest"></activity>
         <activity android:name="org.hydl.chaper9.IntentServiceTest"></activity>
+        <activity android:name="org.hydl.chaper9.TelephonyStatus"></activity>
+        <activity android:name="org.hydl.chaper9.MonitorPhone"></activity>
+        <activity android:name="org.hydl.chaper9.BlockMain"></activity>
         
         <provider 
             android:name="org.hydl.chaper8.FirstProvider"
@@ -243,6 +249,7 @@
                 <action android:name="org.hydl.chaper9.complexservice"/>
             </intent-filter>
         </service>
+        
         
     </application>
 

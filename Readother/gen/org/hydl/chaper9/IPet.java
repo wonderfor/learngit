@@ -1,6 +1,6 @@
 /*
  * This file is auto-generated.  DO NOT MODIFY.
- * Original file: E:\\git\\learngit\\Readother\\src\\org\\hydl\\chaper9\\IPet.aidl
+ * Original file: D:\\works\\Readother\\src\\org\\hydl\\chaper9\\IPet.aidl
  */
 package org.hydl.chaper9;
 public interface IPet extends android.os.IInterface
