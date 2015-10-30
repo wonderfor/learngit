@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <TextView 
+        android:id="@+id/tv_phone"
+        android:text="@string/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+	
+    <EditText 
+        android:id="@+id/et_phone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tv_phone"
+        android:layout_alignBaseline="@+id/tv_phone"/>
+    
+    <TextView 
+        android:id="@+id/tv_sms"
+        android:text="@string/sms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_phone"/>
+    
+    <EditText 
+        android:id="@+id/et_sms"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tv_sms"
+        android:layout_alignBaseline="@+id/tv_sms"
+        
+        />
+    
+    <Button 
+        android:id="@+id/btn_send"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_sms"
+        android:text="@string/send"/>
+</RelativeLayout>

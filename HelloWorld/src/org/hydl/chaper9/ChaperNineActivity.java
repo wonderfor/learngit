@@ -126,5 +126,38 @@ public class ChaperNineActivity extends Activity {
 			}
 		});
 		
+		Button btn_sendsms = (Button) findViewById(R.id.btn_sendsms);
+		btn_sendsms.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent i = new Intent(ChaperNineActivity.this,SendSms.class);
+				startActivity(i);
+			}
+		});
+		
+		Button btn_groupsend = (Button) findViewById(R.id.btn_groupsend);
+		btn_groupsend.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent i = new Intent(ChaperNineActivity.this,GroupSend.class);
+				startActivity(i);
+			}
+		});
+		
+		Button btn_audiotest = (Button) findViewById(R.id.btn_audiotest);
+		btn_audiotest.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent i = new Intent(ChaperNineActivity.this,AudioTest.class);
+				startActivity(i);
+			}
+		});
+		
 	}
 }

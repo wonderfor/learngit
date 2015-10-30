@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.hydl.chaper3.ResultActivity;
 import org.hydl.chaper8.DictResultActivity;
 import org.hydl.chaper9.Words.Word;
 import org.hydl.helloworld.R;

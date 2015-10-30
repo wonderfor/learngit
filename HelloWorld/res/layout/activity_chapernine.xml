@@ -88,6 +88,30 @@
         android:layout_below="@+id/btn_telephonystatus"
         android:text="@string/blockmain" />
 
+    <Button
+        android:id="@+id/btn_sendsms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btn_monitorphone"
+        android:text="@string/sendsms" />
+
+    <Button
+        android:id="@+id/btn_groupsend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_monitorphone"
+        android:layout_toRightOf="@+id/btn_sendsms"
+        android:text="@string/groupsend" />
+
+    <Button
+        android:id="@+id/btn_audiotest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_blockmain"
+        android:layout_toRightOf="@+id/btn_groupsend"
+        android:text="@string/audiotest" />
+
 	</RelativeLayout>
 
 </ScrollView>

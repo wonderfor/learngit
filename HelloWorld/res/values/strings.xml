@@ -205,6 +205,17 @@
 	<string name="monitorphone">MonitorPhone</string>
 	<string name="blockmain">BlockMain</string>
 	<string name="blockmanager">黑名单管理</string>
+	<string name="sendsms">SendSms</string>
+	<string name="sms">消息内容:</string>
+	<string name="send">发送</string>
+	<string name="groupsend">GroupSend</string>
+	<string name="selectphone">选择发送号码</string>
+	<string name="audiotest">AudioTest</string>
+	<string name="play">播放</string>
+	<string name="up">增加音量</string>
+	<string name="down">减小音量</string>
+	<string name="mute">静音(开)</string>
+	<string name="nomute">静音(关)</string>
 	
     
 </resources>

@@ -17,6 +17,7 @@
    	<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
    	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
    	<uses-permission android:name="android.permission.CALL_PHONE"/>
+   	<uses-permission android:name="android.permission.SEND_SMS"/>
    
     <application
         android:allowBackup="true"
@@ -203,6 +204,9 @@
         <activity android:name="org.hydl.chaper9.TelephonyStatus"></activity>
         <activity android:name="org.hydl.chaper9.MonitorPhone"></activity>
         <activity android:name="org.hydl.chaper9.BlockMain"></activity>
+        <activity android:name="org.hydl.chaper9.SendSms"></activity>
+        <activity android:name="org.hydl.chaper9.GroupSend"></activity>
+        <activity android:name="org.hydl.chaper9.AudioTest"></activity>
         
         <provider 
             android:name="org.hydl.chaper8.FirstProvider"
