@@ -112,6 +112,14 @@
         android:layout_toRightOf="@+id/btn_groupsend"
         android:text="@string/audiotest" />
 
+    <Button
+        android:id="@+id/btn_vibratortest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btn_sendsms"
+        android:text="@string/vibratortest" />
+
 	</RelativeLayout>
 
 </ScrollView>

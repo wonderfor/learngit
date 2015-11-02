@@ -216,6 +216,7 @@
 	<string name="down">减小音量</string>
 	<string name="mute">静音(开)</string>
 	<string name="nomute">静音(关)</string>
+	<string name="vibratortest">VibratorTest</string>
 	
     
 </resources>

@@ -18,6 +18,7 @@
    	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
    	<uses-permission android:name="android.permission.CALL_PHONE"/>
    	<uses-permission android:name="android.permission.SEND_SMS"/>
+   	<uses-permission android:name="android.permission.VIBRATE"/>
    
     <application
         android:allowBackup="true"
@@ -207,7 +208,8 @@
         <activity android:name="org.hydl.chaper9.SendSms"></activity>
         <activity android:name="org.hydl.chaper9.GroupSend"></activity>
         <activity android:name="org.hydl.chaper9.AudioTest"></activity>
-        
+        <activity android:name="org.hydl.chaper9.VibratorTest"></activity>
+        	
         <provider 
             android:name="org.hydl.chaper8.FirstProvider"
             android:authorities="org.hydl.chaper8.firstprovider"

@@ -159,5 +159,15 @@ public class ChaperNineActivity extends Activity {
 			}
 		});
 		
+		Button btn_vibrator = (Button) findViewById(R.id.btn_vibratortest);
+		btn_vibrator.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent i = new Intent(ChaperNineActivity.this,VibratorTest.class);
+				startActivity(i);
+			}
+		});
 	}
 }
