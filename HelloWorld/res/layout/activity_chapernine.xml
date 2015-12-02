@@ -120,6 +120,47 @@
         android:layout_below="@+id/btn_sendsms"
         android:text="@string/vibratortest" />
 
+    <Button
+        android:id="@+id/btn_alarmtest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_groupsend"
+        android:layout_toRightOf="@+id/btn_vibratortest"
+        android:text="@string/alarmtest" />
+
+    <Button
+        android:id="@+id/btn_wall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn_alarmtest"
+        android:layout_alignBottom="@+id/btn_alarmtest"
+        android:layout_toRightOf="@+id/btn_alarmtest"
+        android:text="@string/wallpapers" />
+
+    <Button
+        android:id="@+id/btn_broadcast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btn_vibratortest"
+        android:text="@string/broadcast" />
+
+    <Button
+        android:id="@+id/btn_sortedbroadcast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_vibratortest"
+        android:layout_toRightOf="@+id/btn_broadcast"
+        android:text="@string/sortedbroadcast" />
+
+    <Button
+        android:id="@+id/btn_musicbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btn_broadcast"
+        android:text="@string/musicbox" />
+
 	</RelativeLayout>
 
 </ScrollView>

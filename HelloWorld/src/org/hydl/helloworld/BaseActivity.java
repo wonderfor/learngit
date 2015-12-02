@@ -1,5 +1,6 @@
 package org.hydl.helloworld;
 
+import org.hydl.chaper10.ChaperTenActivity;
 import org.hydl.chaper9.ChaperNineActivity;
 
 import android.app.Activity;
@@ -34,6 +35,17 @@ public class BaseActivity extends Activity {
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
 				Intent i = new Intent(BaseActivity.this,ChaperNineActivity.class);
+				startActivity(i);
+			}
+		});
+		
+		Button btn_chpaer10 = (Button) findViewById(R.id.btn_chaper10);
+		btn_chpaer10.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent i = new Intent(BaseActivity.this,ChaperTenActivity.class);
 				startActivity(i);
 			}
 		});

@@ -216,4 +216,24 @@
 	<string name="mute">静音(开)</string>
 	<string name="nomute">静音(关)</string>
 	<string name="vibratortest">VibratorTest</string>
+	<string name="alarmtest">AlarmTest</string>
+	<string name="btn_settime">设置闹钟</string>
+	<string name="wallpapers">壁纸</string>
+	<string name="broadcast">Broadcast</string>
+	<string name="sortedbroadcast">SortedBroadcast</string>
+	<string name="musicbox">MusicBox</string>
+	<string name="chaper10">第十章</string>
+	<string name="mediaplayer">MediaPlayer</string>
+	<string name="soundpool">SoundPool</string>
+	<string name="bomb">Bomb</string>
+	<string name="shot">Shot</string>
+	<string name="arraw">Arraw</string>
+	<string name="video">Video</string>
+	<string name="recordsound">RecordSound</string>
+	<string name="captureimage">CaptureImage</string>
+	<string name="photo_name">照片名称</string>
+	<string name="recordvideo">RecordVideo</string>
+	<string name="polygon">Polygon</string>
+	<string name="multiclient">Multiclient</string>
+	
 </resources>

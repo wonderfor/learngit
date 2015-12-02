@@ -169,5 +169,61 @@ public class ChaperNineActivity extends Activity {
 				startActivity(i);
 			}
 		});
+		
+		Button btn_alarm = (Button) findViewById(R.id.btn_alarmtest);
+		btn_alarm.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View arg0) {
+				// TODO Auto-generated method stub
+				Intent i = new Intent(ChaperNineActivity.this,AlarmTest.class);
+				startActivity(i);
+			}
+		});
+		
+		Button btn_wall = (Button) findViewById(R.id.btn_wall);
+		btn_wall.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent i = new Intent(ChaperNineActivity.this,AlarmChangeWallpaper.class);
+				startActivity(i);
+			}
+		});
+		
+		Button btn_broadcast = (Button) findViewById(R.id.btn_broadcast);
+		btn_broadcast.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent i = new Intent(ChaperNineActivity.this,BroadcastMain.class);
+				startActivity(i);
+			}
+		});
+		
+		Button btn_sortbroadcast = (Button) findViewById(R.id.btn_sortedbroadcast);
+		btn_sortbroadcast.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent i = new Intent(ChaperNineActivity.this,SortedBroadcast.class);
+				startActivity(i);
+			}
+		});
+		
+		Button btn_musicbox = (Button) findViewById(R.id.btn_musicbox);
+		btn_musicbox.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent i = new Intent(ChaperNineActivity.this,MusicBox.class);
+				startActivity(i);
+			}
+		});
+		
 	}
 }
